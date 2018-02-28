@@ -1,0 +1,87 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+h1 { 
+	color: #3c80c6; 
+	font-size: 48px;
+	font-weight: bold;
+	text-align: center;
+}
+
+h2 {color: #000;
+	text-align: center;
+}
+
+body {
+	color: #000;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background: linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.7)), url(../images/lawyer.jpg);
+	background-size: cover;
+	padding: 40px;
+}
+
+#slogan {
+	font-style: italic; 
+}
+
+#cover {
+	width: 300px;
+	padding-bottom: 50px;
+	padding-left: 30px
+}
+
+#sample {
+	background: #666666;
+	padding: 40px;
+}
+
+#content {
+	padding: 40px;
+	padding-top: 20px;
+	padding-left: 100px;
+ 	padding-right: 100px;
+}
+
+#reviews {
+	background: #3c80c6;
+	padding: 40px;
+	padding-top: 20px;
+	padding-left: 100px;
+ 	padding-right: 100px;
+}
+
+#author {
+	padding: 40px;
+	padding-top: 20px;
+	padding-left: 100px;
+ 	padding-right: 100px;
+}
+
+#summer {
+	padding-bottom: 20px;
+}
+
+a {
+	color: #3c80c6;
+	text-decoration: none;
+	font-weight: bold;
+ }
+
+footer {
+	text-align: center;
+	background-color: #a8a8a8;
+	padding: 20px;
+}
+
+ h1, h2 {
+ 	margin: 20px 0;
+ }
+
+ul {
+	font-weight: bold;
+}
