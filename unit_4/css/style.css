@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Karma|Roboto:700');
+
 *{
 	padding: 0;
 	margin: 0;
@@ -5,14 +7,17 @@
 
 h1 { 
 	color: #3c80c6; 
+	font-family: 'Roboto', sans-serif;
 	font-size: 48px;
 	font-weight: bold;
 	text-align: center;
-
+	margin: 20px 0;
 }
 
 h2 {color: #000;
+	font-family: 'Roboto', sans-serif;
 	text-align: center;
+	margin: 20px 0;
 }
 
 body {
@@ -20,14 +25,21 @@ body {
 	font-family: Arial, sans-serif;
 }
 
-#slogan {
-	font-style: italic; 
+header {
+	background: linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.7)), url(../images/lawyer.jpg);
+	background-size: cover;
+	padding: 40px;
 }
 
-header {
-	background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(../images/lawyer.jpg);
-	background-size: cover;
-	padding: 20px;
+p {
+	font-family: 'Karma', serif;
+	font-size: 20px;
+	line-height: 1.5em;
+}
+
+ul {
+	font-weight: bold;
+	font-family: 'Karma', serif;
 }
 
 a {
@@ -36,12 +48,49 @@ a {
 	font-weight: bold;
  }
 
- footer {
- 	background-color: #3c80c6;
- 	padding: 30px;
- 	text-align: center;
- }
+footer {
+	text-align: center;
+	background-color: #a8a8a8;
+	padding: 20px;
+}
 
- h1, h2 {
- 	margin: 20px 0;
- }
+#slogan {
+	font-style: italic; 
+}
+
+#cover {
+	width: 300px;
+	padding-bottom: 50px;
+	padding-left: 30px
+}
+
+#sample {
+	background: #666666;
+	padding: 40px;
+}
+
+#content {
+	padding: 40px;
+	padding-top: 20px;
+	padding-left: 100px;
+ 	padding-right: 100px;
+}
+
+#reviews {
+	background: #3c80c6;
+	padding: 40px;
+	padding-top: 20px;
+	padding-left: 100px;
+ 	padding-right: 100px;
+}
+
+#author {
+	padding: 40px;
+	padding-top: 20px;
+	padding-left: 100px;
+ 	padding-right: 100px;
+}
+
+#summer {
+	padding-bottom: 20px;
+}
