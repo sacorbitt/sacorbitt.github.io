@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Karma|Roboto:700');
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3 {
+	text-transform: uppercase;
+}
+
+h1 { 
+	font-family: 'Roboto', sans-serif;
+	font-size: 3em;
+	font-weight: bold;
+	text-align: center;
+	margin: 20px 0;
+}
+
+h2 {color: #000;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	margin: 20px 0;
+}
+
+h3 {color: #000;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	margin: 20px 0;
+}
+
+body {
+	color: #000;
+	font-family: Arial, sans-serif;
+	font-size: 18px
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	background-size: cover;
+	padding: 20px;
+}
+
+p {
+	font-family: 'Karma', serif;
+	font-size: 20px;
+	line-height: 1.5em;
+}
+
+ul {
+	font-weight: bold;
+	font-family: 'Karma', serif;
+}
+
+a {
+	color: #3c80c6;
+	text-decoration: none;
+	font-weight: bold;
+ }
+
+footer {
+	text-align: center;
+	background-color: #FF957E;
+	border: 1px solid black;
+	padding: 20px;
+}
+
+#slogan {
+	font-style: italic; 
+	background-color: #FFED74;
+	border: 1px solid black;
+	padding: 20px;
+}
+
+#cover {
+	width: 300px;
+	background-color: #FFED74;
+	border: 1px solid black;
+	padding: 20px;
+}
+
+#sample {
+	background-color: #FFE2B8;
+	border: 1px solid black;
+	padding: 20px;
+}
+
+#content {
+	background-color: #FFE2B8;
+	border: 1px solid black;
+	padding: 40px;
+}
+
+#reviews {
+	background-color: #FFE2B8;
+	border: 1px solid black;
+	padding: 20px;
+}
+
+#author {
+	background-color: #FFE2B8;
+	border: 1px solid black;
+	padding: 20px;
+}
+
+#summer {
+	background-color: #FFE2B8;
+	border: 1px solid black;
+	padding: 20px;
+}
