@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Karma|Roboto:700');
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3 {
+	text-transform: uppercase;
+}
+
+h1 { 
+	color: #3c80c6;
+	font-family: 'Roboto', sans-serif;
+	font-size: 3em;
+	font-weight: bold;
+	text-align: center;
+	margin: 20px 0;
+}
+
+h2 {
+	color: #000;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.2em;
+	text-align: center;
+	margin: 20px 0;
+}
+
+h3 {
+	color: #000;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.2em;
+	text-align: center;
+	margin: 10px 0;
+}
+
+header {
+	background-color: #FFF;
+	background-size: cover;
+	padding: 20px 80px;
+	float: left
+}
+
+nav{
+	background-color: #FFF;
+	background-size: cover;
+	padding: 38px 100px;
+	float: right;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+  margin: 4px 20px;
+  display: inline-block;
+  float: right;
+}
+
+nav a:hover {
+	color: #3c80c6
+}
+
+main {
+	background: linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.7)), url(../images/lawyer.jpg);
+	background-size: cover;
+	padding: 20px;
+	float: left;
+}
+
+body {
+	color: #000;
+	font-family: Arial, sans-serif;
+	font-size: 18px
+}
+
+section {
+	background-color: #FFE2B8;
+	background-size: cover;
+	padding: 20px;
+}
+
+aside {
+	padding: 100px;
+	font-family: 'Karma', serif;
+	font-size: 20px;
+	line-height: 1.5em;
+}
+
+p {
+	font-family: 'Karma', serif;
+	font-size: 20px;
+	line-height: 1.5em;
+	padding: 30px;
+}
+
+ul {
+	font-weight: bold;
+	font-family: 'Karma', serif;
+	line-height: 2em;
+}
+
+a {
+	color: #3c80c6;
+	text-decoration: none;
+	font-weight: bold;
+ }
+
+footer {
+	text-align: center;
+	background-color: #d9d9d9;
+	padding: 20px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#scales{
+	width: 50px;
+}
+
+#slogan {
+	font-style: italic; 
+	padding: 20px;
+}
+
+#two_column {
+    padding: 20px;
+}
+
+#left {
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    padding: 50px 30px;
+    float: right;
+    width: 62%;
+}
+
+#sample {
+	background-color: #a8a8a8;
+	padding: 40px;
+	clear: both;
+}
+
+#content {
+	background-color: #FFF;
+	padding: 60px;
+}
+
+#reviews {
+	background-color: #3c80c6;
+	padding: 50px;
+}
+
+#author {
+	background-color: #FFF;
+	padding: 50px;
+}
+
+#summer {
+	padding: 35px 50px;
+	float: left;
+}

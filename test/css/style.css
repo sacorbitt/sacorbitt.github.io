@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Karma|Roboto:700');
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+h1 { 
+	color: #3c80c6; 
+	font-family: 'Roboto', sans-serif;
+	font-size: 3em;
+	font-weight: bold;
+	text-align: center;
+	margin: 20px 0;
+}
+
+h2 {color: #000;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	margin: 20px 0;
+}
+
+h3 {color: #000;
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	text-align: center;
+	margin: 20px 0;
+}
+
+body {
+	color: #000;
+	font-family: Arial, sans-serif;
+	font-size: 18px
+}
+
+main {
+	background: linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.7)), url(../images/lawyer.jpg);
+	background-size: cover;
+	padding: 0px;
+	float: left;
+}
+
+nav {
+	background: #FFFFFF;
+	width: 100%;
+	font-size: 1.2em;
+	float: left;
+	text-transform: uppercase;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+  margin: 1.8em;
+  display: inline-block;
+  float: right;
+}
+
+nav a:hover {
+	color: #3c80c6
+}
+
+p {
+	font-family: 'Karma', serif;
+	font-size: 20px;
+	line-height: 1.5em;
+}
+
+ul {
+	font-weight: bold;
+	font-family: 'Karma', serif;
+}
+
+a {
+	color: #3c80c6;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+footer {
+	text-align: center;
+	background-color: #a8a8a8;
+	padding: 20px;
+	clear: both;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#scales {
+	width: 100px;
+	padding: 20px;
+	float: left;
+}
+
+#title {
+	padding: 40px;
+	clear: both;
+}
+
+#slogan {
+	font-style: italic; 
+	font-size: 26px;
+}
+
+#cover {
+	width: 400px;
+	padding: 50px 100px;
+	float: left;
+}
+
+#discover {
+	padding: 100px
+}
+
+#sample {
+	background: #666666;
+	padding: 40px;
+	font-size: 24px;
+	clear: both;
+}
+
+#content {
+	padding: 40px;
+	padding-top: 20px;
+	padding-left: 100px;
+ 	padding-right: 100px;
+}
+
+#reviews {
+	background: #3c80c6;
+	padding: 40px;
+	padding-top: 20px;
+	padding-left: 100px;
+ 	padding-right: 100px;
+}
+
+#author {
+	padding: 40px 100px;
+}
+
+#summer {
+	padding-bottom: 40px;
+	float: left;
+}
