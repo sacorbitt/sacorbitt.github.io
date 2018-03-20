@@ -5,6 +5,46 @@
 	margin: 0;
 }
 
+header {
+	background-color: #FFF;
+	background-size: cover;
+	padding: 0px 80px;
+	float: left
+}
+
+nav{
+	background-color: #FFF;
+	background-size: cover;
+	padding: 38px 100px;
+	float: right;
+}
+
+nav a {
+  	text-decoration: none;
+  	color: #000000;
+  	margin: 4px 20px;
+  	display: inline-block;
+  	float: left;
+}
+
+nav a:hover {
+	color: #3c80c6
+}
+
+main {
+	background: linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.7)), url(../images/lawyer.jpg);
+	background-size: cover;
+	padding: 20px;
+	float: left;
+}
+
+aside {
+	padding: 100px;
+	font-family: 'Karma', serif;
+	font-size: 20px;
+	line-height: 1.5em;
+}
+
 h1, h2, h3 {
 	text-transform: uppercase;
 }
@@ -18,53 +58,12 @@ h1 {
 	margin: 20px 0;
 }
 
-h2 {
-	color: #000;
-	font-family: 'Roboto', sans-serif;
-	font-size: 1.2em;
-	text-align: center;
-	margin: 20px 0;
-}
-
-h3 {
+h2, h3 {
 	color: #000;
 	font-family: 'Roboto', sans-serif;
 	font-size: 1.2em;
 	text-align: center;
 	margin: 10px 0;
-}
-
-header {
-	background-color: #FFF;
-	background-size: cover;
-	padding: 20px 80px;
-	float: left
-}
-
-nav{
-	background-color: #FFF;
-	background-size: cover;
-	padding: 38px 100px;
-	float: right;
-}
-
-nav a {
-  text-decoration: none;
-  color: #000000;
-  margin: 4px 20px;
-  display: inline-block;
-  float: right;
-}
-
-nav a:hover {
-	color: #3c80c6
-}
-
-main {
-	background: linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.7)), url(../images/lawyer.jpg);
-	background-size: cover;
-	padding: 20px;
-	float: left;
 }
 
 body {
@@ -79,13 +78,6 @@ section {
 	padding: 20px;
 }
 
-aside {
-	padding: 100px;
-	font-family: 'Karma', serif;
-	font-size: 20px;
-	line-height: 1.5em;
-}
-
 p {
 	font-family: 'Karma', serif;
 	font-size: 20px;
@@ -97,6 +89,7 @@ ul {
 	font-weight: bold;
 	font-family: 'Karma', serif;
 	line-height: 2em;
+	list-style: disc;
 }
 
 a {
@@ -108,7 +101,6 @@ a {
 footer {
 	text-align: center;
 	background-color: #d9d9d9;
-	padding: 20px;
 }
 
 .clearfix:after {
@@ -121,12 +113,7 @@ footer {
 }
 
 #scales{
-	width: 50px;
-}
-
-#slogan {
-	font-style: italic; 
-	padding: 20px;
+	width: 100px;
 }
 
 #two_column {
@@ -142,31 +129,44 @@ footer {
 #right {
     padding: 50px 30px;
     float: right;
-    width: 62%;
+    width: 60%;
 }
 
 #sample {
 	background-color: #a8a8a8;
-	padding: 40px;
+	padding: 30px 80px;
 	clear: both;
 }
 
 #content {
 	background-color: #FFF;
-	padding: 60px;
+	padding: 40px 100px;
 }
 
 #reviews {
 	background-color: #3c80c6;
-	padding: 50px;
+	padding: 40px 50px;
+}
+
+#columnone {
+	width: 25%;
+	background-color: #FFF;
+	float: left;
+	clear: both;
+}
+
+#columntwo {
+	width: 100%;
+	background-color: #FFF;
 }
 
 #author {
 	background-color: #FFF;
-	padding: 50px;
+	padding: 40px 60px;
 }
 
 #summer {
-	padding: 35px 50px;
+	padding: 35px 20px;
 	float: left;
 }
+
